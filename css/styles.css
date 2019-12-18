@@ -1,0 +1,173 @@
+/* Fonts */
+@import url("https://use.typekit.net/kef4vpi.css");
+
+.font-book{
+    font-family: 'futura-pt-condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-med{
+    font-family: 'futura-pt-condensed', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-bold{
+    font-family: 'futura-pt-condensed', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-extra-bold{
+    font-family: 'futura-pt-condensed', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    color: #002856;
+}
+
+h2{
+    font-size: 3em;
+    color: #002856;
+    
+}
+p{
+    font-size: 1.75em;
+    color: #333333;
+}
+
+form, input{
+    font-size: 1.75em;
+    color: #7b9abf;
+}
+
+button{
+    font-size: .75em;
+    color: white;
+    background-color: #7b9abf;
+    border: none;
+    padding: 5px;
+}
+
+span{
+    font-size: 1.25em;
+    padding: .5em;
+}
+
+.title h1{
+    margin-bottom: 0px;
+}
+
+.title h2{
+    margin-top: 0px; 
+    color: #7b9abf;
+}
+
+title{
+    margin-bottom: .25em;
+}
+
+
+/* End of Fonts */
+
+.header{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+/* Image Sizing */
+.article .mood img{
+    width: 50%;
+}
+
+.article .logo img{
+    width: 75%;
+}
+
+.article .brand-guide img{
+    width: 40%;
+    border: 1px solid #000;
+}
+
+.article .business-card img{
+    width: 25%;
+    border: 1px solid #000;
+}
+
+.article .letter-head img{
+    width: 60%;
+    border: 1px solid #000;
+}
+
+.article .thank-you img{
+    width: 25%;
+    border: 1px solid #000;
+}
+/* Footer Settings */
+.footer{
+    background-image: url(../images/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75px; 
+}
+
+/* Wrapper settings */
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+.text-wrapper{
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    display: block;
+}
+
+.body-text-wrap{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;  
+}
+
+.images-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form */
+.form{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f4db6c;
+    border: 5px solid #7b9abf;
+}
+
+.input{
+    padding-bottom: .25em;
+}
+
+
+
+
